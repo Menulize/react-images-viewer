@@ -41,7 +41,7 @@ class ImgsViewer extends Component {
       this.setState(() => ({ theme }));
     };
     this.state = {
-      imgLoaded: false,
+      imgLoaded: true,
       theme: this.theme,
       toggleTheme: this.toggleTheme,
     };
